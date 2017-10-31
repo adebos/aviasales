@@ -21,4 +21,4 @@
 
 ---
 
-<a href="https://adebos.github.io/aviasales/dist/index.html">Страничка с результатом</a>
+<a href="https://adebos.github.io/aviasales/dist/" target="_blank">Страничка с результатом</a>
