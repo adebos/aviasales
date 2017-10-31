@@ -1,0 +1,5 @@
+<app-header></app-header>
+<section class="content">
+	<app-filter (filterToShow)="filterToShow($event)"></app-filter>
+	<app-flight-list [ticketAfterFilter]="ticketAfterFilter"></app-flight-list>
+</section>

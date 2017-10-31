@@ -1,0 +1,27 @@
+.content {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+app-filter {
+	width: 25%;
+	max-height: 300px;
+	padding: 30px;
+	margin-right: 5%;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3)
+}
+app-flight-list {width: 70%}
+
+@media only screen and (max-width: 920px) {
+	app-filter {padding: 15px;}
+}
+@media only screen and (max-width: 800px) {
+	.content {flex-wrap: wrap;}
+	app-filter {padding: 30px; width: 70%; margin: 0 auto 15px;}
+	app-flight-list {width: 100%}
+}
+@media only screen and (max-width: 560px) {
+	app-filter {padding: 20px; width: 90%; margin: 0 auto 15px;}
+}
